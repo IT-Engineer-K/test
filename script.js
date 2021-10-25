@@ -4,4 +4,5 @@ function pressed() {
     var now = new Date
     audio.play()
     alert(now.getMilliseconds())
+    audio.pause()
 }
