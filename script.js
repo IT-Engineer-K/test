@@ -1,8 +1,13 @@
 var audio = new Audio('GENERATOR 20000Hz.wav')
+var now
 
 function pressed() {
-    var now = new Date
+    now = new Date
     audio.play()
-    alert(now.getMilliseconds())
+    setTimeout(pause, 1000);
+}
+
+function pause() {
     audio.pause()
+    alert()
 }
