@@ -4,7 +4,7 @@ var now
 function pressed() {
     now = new Date
     audio.play()
-    setTimeout(pause, 1000);
+    setTimeout(pause, 100);
 }
 
 function pause() {
