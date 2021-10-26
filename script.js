@@ -9,5 +9,6 @@ function pressed() {
 
 function pause() {
     audio.pause()
-    alert(now.getSeconds() + now.getMilliseconds() / 1000)
+    document.getElementById('time').innerHTML = now.getSeconds() + now.getMilliseconds() / 1000;
+    //alert(now.getSeconds() + now.getMilliseconds() / 1000)
 }
